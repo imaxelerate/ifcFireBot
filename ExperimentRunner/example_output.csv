@@ -1,0 +1,15 @@
+Model,QuestionId,Question,Answer,TargetEntityType,EntityCount,DetectedIssueCategories,GeometryMissing,PropertiesMissing,UnnamedEntities,ConfidenceLevel,TotalIssues,ErrorCount,WarningCount
+example_house.ifc,Q1,how many storeys does the building have?,2 floors,IfcBuildingStorey,3,Structure,0,1,0,High,2,0,1
+example_house.ifc,Q2,what is the total area of all building storeys?,"Ground floor: 96,40 m², Upper floor: 84,10 m²",IfcBuildingStorey,3,Properties | Geometry,1,3,0,Medium,5,0,3
+example_house.ifc,Q3,what is the building height?,"7,85m",IfcBuildingStorey,3,Structure,0,1,0,High,2,0,1
+example_house.ifc,Q4,does the building have a balcony?,"Yes, 1 found",IfcSpace,9,Naming,0,2,1,Medium,4,0,2
+example_house.ifc,Q5,does the building have an attic?,"No, none found",IfcSpace,9,Naming,0,2,1,Low,4,0,2
+example_house.ifc,Q6,what is the maximum roof height of all building storeys?,"2,70m",IfcBuildingStorey,3,Properties,0,2,0,Medium,3,0,2
+example_house.ifc,Q7,how many building storeys are beneath ground level?,0,IfcBuildingStorey,3,Structure,0,1,0,High,2,0,1
+example_office.ifc,Q1,how many storeys does the building have?,4 floors,IfcBuildingStorey,6,Structure | Naming,0,6,2,Medium,9,0,6
+example_office.ifc,Q2,what is the total area of all building storeys?,"Plan 1: 410,20 m², Plan 2: 398,75 m², Plan 3: 398,75 m², Plan 4: 352,00 m²",IfcBuildingStorey,6,Properties | Geometry | Structure,2,6,2,Low,14,1,8
+example_office.ifc,Q3,what is the building height?,"15,60m",IfcBuildingStorey,6,Structure,0,6,2,Medium,9,0,6
+example_office.ifc,Q4,does the building have a balcony?,"No, none found",IfcSpace,58,Classification | Naming,0,21,7,Low,31,0,19
+example_office.ifc,Q5,does the building have an attic?,"No, none found",IfcSpace,58,Classification | Naming,0,21,7,Low,31,0,19
+example_office.ifc,Q6,what is the maximum roof height of all building storeys?,"3,40m",IfcBuildingStorey,6,Properties,0,6,2,Medium,9,0,6
+example_office.ifc,Q7,how many building storeys are beneath ground level?,1,IfcBuildingStorey,6,Structure,0,6,2,Medium,9,0,6

@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="ExperimentRunner/ExperimentRunner.csproj" Id="02ce33ee-3839-4ec6-bb72-3b0f4badd70f" />
+  <Project Path="ifcFireAnalyzer/ifcFireAnalyzer.csproj" Id="5ece6841-f157-42bf-a39c-f1f31802c71a" />
+  <Project Path="ifcFireBot/ifcFireBot.csproj" Id="49562b77-f5f6-4313-8012-d8d70eaea5ab" />
+</Solution>
